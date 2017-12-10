@@ -1,4 +1,6 @@
+
 package Compare;
+
 
 /**
  * Created by RishatRg on 29.10.2017.
@@ -8,6 +10,7 @@ package Compare;
  * с помощью интерфейса Comparator. Отсортируйте массив сотрудников сначала по одному,
  * а потом по другому параметру.
  */
+
 public class Employee implements Comparable<Employee> {
     String name ;
     String position ;
@@ -43,10 +46,10 @@ public class Employee implements Comparable<Employee> {
         return salary;
     }
 
-    public int compareTo(Employee any)
-    {return any.getSalary()>salary ? -1 :any.getSalary()< salary? 1 : 0;
-    }
+    public int compareTo(Employee o2) {
+        return name.compareTo(o2.getName());
 
+    }
     @Override
     public String toString() {
         return "name='" + name + '\'' +
@@ -54,3 +57,4 @@ public class Employee implements Comparable<Employee> {
                 ", salary=" + salary ;
     }
 }
+

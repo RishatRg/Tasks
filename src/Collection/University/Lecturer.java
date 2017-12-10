@@ -22,7 +22,7 @@ public class Lecturer implements Human{
 
     @Override
     public String toString() {
-        return ID +". "+LastName+ ' ' + FirstName .toCharArray()[0]+". "+ Patronymic.toCharArray()[0]+". "+
+        return ID +". "+LastName+ ' ' + FirstName .toCharArray()[0]+". "+ Patronymic.toCharArray()[0]+". "+Age+" лет."+
                 "( кафедра: " + kafedra+ ")\n";
     }
 

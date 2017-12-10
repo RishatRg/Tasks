@@ -1,3 +1,4 @@
+
 package Compare;
 
 import java.util.Comparator;
@@ -5,6 +6,7 @@ import java.util.Comparator;
 /**
  * Created by RishatRg on 29.10.2017.
  */
+
 public class MyComparator implements Comparator {
     public int compare(Object o1, Object o2) {
         Employee any1 = (Employee) o1;
@@ -16,3 +18,4 @@ public class MyComparator implements Comparator {
         else return 0;
     }
 }
+

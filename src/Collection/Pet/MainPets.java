@@ -13,7 +13,7 @@ public class MainPets {
     public static void main(String[] args) {
 
         LinkedList<Pet> Pets = new LinkedList<Pet>();
-        try (Scanner in = new Scanner(new File("D:\\inPets.txt"))) {
+        try (Scanner in = new Scanner(new File("D:\\рабочий стол\\уку\\4 семестр\\Java!\\Tasks\\src\\Collection\\Pet\\inPets.txt"))) {
 
             while (in.hasNext())
                 Pets.add(new Pet(in.next(), in.next(), in.nextInt()));

@@ -26,8 +26,8 @@ public class Student implements Human {
 
     @Override
     public String toString() {
-        return ID + ". " + LastName+ ' ' + FirstName .toCharArray()[0] + ". " + Patronymic.toCharArray()[0] + ". " +
-                "( группа: " + Group + ")\n";
+        return ID + ". " + LastName+ ' ' + FirstName .toCharArray()[0] + ". " + Patronymic.toCharArray()[0] + "."+Age+" лет." +
+                "( группа: " + Group + " "+ ")\n";
     }
 
     @Override
